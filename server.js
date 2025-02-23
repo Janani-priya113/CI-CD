@@ -9,7 +9,7 @@ app.get('/health', (req, res) => {
 
 // Root endpoint
 app.get('/', (req, res) => {
-    res.send('Welcome to the CI/CD Web Server!');
+    res.send('Welcome to the new CI/CD Web Server!');
 });
 
 app.listen(PORT, () => {
